@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F60A44F11CE66163000A8181 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60A44F01CE66163000A8181 /* AppDelegate.swift */; };
+		F60A44F31CE66163000A8181 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60A44F21CE66163000A8181 /* ViewController.swift */; };
+		F60A44F61CE66163000A8181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60A44F41CE66163000A8181 /* Main.storyboard */; };
+		F60A44F81CE66163000A8181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60A44F71CE66163000A8181 /* Assets.xcassets */; };
+		F60A44FB1CE66163000A8181 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60A44F91CE66163000A8181 /* LaunchScreen.storyboard */; };
+		F60A45031CE66264000A8181 /* PopUpViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F60A45021CE66264000A8181 /* PopUpViewController_iPad.xib */; settings = {ASSET_TAGS = (); }; };
+		F60A45051CE66283000A8181 /* PopUpViewControllerSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60A45041CE66283000A8181 /* PopUpViewControllerSwift.swift */; settings = {ASSET_TAGS = (); }; };
+		F60A45071CE662E3000A8181 /* PopUpViewController_iPhone6.xib in Resources */ = {isa = PBXBuildFile; fileRef = F60A45061CE662E3000A8181 /* PopUpViewController_iPhone6.xib */; settings = {ASSET_TAGS = (); }; };
+		F60A45091CE662F1000A8181 /* PopUpViewController_iPhone6Plus.xib in Resources */ = {isa = PBXBuildFile; fileRef = F60A45081CE662F1000A8181 /* PopUpViewController_iPhone6Plus.xib */; settings = {ASSET_TAGS = (); }; };
+		F60A450B1CE662FF000A8181 /* PopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F60A450A1CE662FF000A8181 /* PopUpViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		F60A450D1CE665DA000A8181 /* image_to_show.png in Resources */ = {isa = PBXBuildFile; fileRef = F60A450C1CE665DA000A8181 /* image_to_show.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F60A44ED1CE66163000A8181 /* popuptest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popuptest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60A44F01CE66163000A8181 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F60A44F21CE66163000A8181 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F60A44F51CE66163000A8181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F60A44F71CE66163000A8181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F60A44FA1CE66163000A8181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F60A44FC1CE66163000A8181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F60A45021CE66264000A8181 /* PopUpViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopUpViewController_iPad.xib; sourceTree = "<group>"; };
+		F60A45041CE66283000A8181 /* PopUpViewControllerSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewControllerSwift.swift; sourceTree = "<group>"; };
+		F60A45061CE662E3000A8181 /* PopUpViewController_iPhone6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopUpViewController_iPhone6.xib; sourceTree = "<group>"; };
+		F60A45081CE662F1000A8181 /* PopUpViewController_iPhone6Plus.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopUpViewController_iPhone6Plus.xib; sourceTree = "<group>"; };
+		F60A450A1CE662FF000A8181 /* PopUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopUpViewController.xib; sourceTree = "<group>"; };
+		F60A450C1CE665DA000A8181 /* image_to_show.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_to_show.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F60A44EA1CE66163000A8181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F60A44E41CE66163000A8181 = {
+			isa = PBXGroup;
+			children = (
+				F60A44EF1CE66163000A8181 /* popuptest */,
+				F60A44EE1CE66163000A8181 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F60A44EE1CE66163000A8181 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F60A44ED1CE66163000A8181 /* popuptest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F60A44EF1CE66163000A8181 /* popuptest */ = {
+			isa = PBXGroup;
+			children = (
+				F60A450C1CE665DA000A8181 /* image_to_show.png */,
+				F60A450A1CE662FF000A8181 /* PopUpViewController.xib */,
+				F60A45081CE662F1000A8181 /* PopUpViewController_iPhone6Plus.xib */,
+				F60A45061CE662E3000A8181 /* PopUpViewController_iPhone6.xib */,
+				F60A45041CE66283000A8181 /* PopUpViewControllerSwift.swift */,
+				F60A45021CE66264000A8181 /* PopUpViewController_iPad.xib */,
+				F60A44F01CE66163000A8181 /* AppDelegate.swift */,
+				F60A44F21CE66163000A8181 /* ViewController.swift */,
+				F60A44F41CE66163000A8181 /* Main.storyboard */,
+				F60A44F71CE66163000A8181 /* Assets.xcassets */,
+				F60A44F91CE66163000A8181 /* LaunchScreen.storyboard */,
+				F60A44FC1CE66163000A8181 /* Info.plist */,
+			);
+			path = popuptest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F60A44EC1CE66163000A8181 /* popuptest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F60A44FF1CE66163000A8181 /* Build configuration list for PBXNativeTarget "popuptest" */;
+			buildPhases = (
+				F60A44E91CE66163000A8181 /* Sources */,
+				F60A44EA1CE66163000A8181 /* Frameworks */,
+				F60A44EB1CE66163000A8181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = popuptest;
+			productName = popuptest;
+			productReference = F60A44ED1CE66163000A8181 /* popuptest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F60A44E51CE66163000A8181 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = gamiya;
+				TargetAttributes = {
+					F60A44EC1CE66163000A8181 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = F60A44E81CE66163000A8181 /* Build configuration list for PBXProject "popuptest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F60A44E41CE66163000A8181;
+			productRefGroup = F60A44EE1CE66163000A8181 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F60A44EC1CE66163000A8181 /* popuptest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F60A44EB1CE66163000A8181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60A44FB1CE66163000A8181 /* LaunchScreen.storyboard in Resources */,
+				F60A450D1CE665DA000A8181 /* image_to_show.png in Resources */,
+				F60A45091CE662F1000A8181 /* PopUpViewController_iPhone6Plus.xib in Resources */,
+				F60A45071CE662E3000A8181 /* PopUpViewController_iPhone6.xib in Resources */,
+				F60A45031CE66264000A8181 /* PopUpViewController_iPad.xib in Resources */,
+				F60A450B1CE662FF000A8181 /* PopUpViewController.xib in Resources */,
+				F60A44F81CE66163000A8181 /* Assets.xcassets in Resources */,
+				F60A44F61CE66163000A8181 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F60A44E91CE66163000A8181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60A44F31CE66163000A8181 /* ViewController.swift in Sources */,
+				F60A44F11CE66163000A8181 /* AppDelegate.swift in Sources */,
+				F60A45051CE66283000A8181 /* PopUpViewControllerSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F60A44F41CE66163000A8181 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F60A44F51CE66163000A8181 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F60A44F91CE66163000A8181 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F60A44FA1CE66163000A8181 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F60A44FD1CE66163000A8181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F60A44FE1CE66163000A8181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F60A45001CE66163000A8181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = popuptest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.gamiya.popuptest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F60A45011CE66163000A8181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = popuptest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.gamiya.popuptest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F60A44E81CE66163000A8181 /* Build configuration list for PBXProject "popuptest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60A44FD1CE66163000A8181 /* Debug */,
+				F60A44FE1CE66163000A8181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F60A44FF1CE66163000A8181 /* Build configuration list for PBXNativeTarget "popuptest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60A45001CE66163000A8181 /* Debug */,
+				F60A45011CE66163000A8181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F60A44E51CE66163000A8181 /* Project object */;
+}
